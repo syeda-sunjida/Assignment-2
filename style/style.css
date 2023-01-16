@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@500&display=swap');
+*{
+    margin: 0;
+    font-family: 'Work Sans';
+    font-style: normal;
+
+}
+
+
+
+
+nav {
+    align-items: baseline;
+    justify-content: center;
+
+    font-family: 'work sans';
+
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+nav h1 {
+    font-size: 45px;
+}
+
+
+.start {
+    display: flex;
+    gap: 400px;
+
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+
+}
+
+.menu li {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+/* nav end */
+/* Main Start */
+.intro {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro h1 {
+
+    left: 529px;
+
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 75px;
+    text-align: center;
+
+    /* Dark 01 */
+
+    color: #131313;
+    margin: 0;
+    padding: 0;
+
+}
+
+.intro p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: center;
+
+    /* Dark 03 */
+
+    color: #727272;
+}
+
+.intro button {
+
+
+
+    height: 80px;
+    width: 200px;
+    left: 40%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+
+    border-radius: 8px;
+    border: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 23px;
+    text-align: center;
+    background: #FF900E;
+    color: #FFFFFF;
+    top: 20px;
+
+
+}
+
+/* Banner */
+
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.quick {
+    margin-top: 50px;
+    /* display: flex;
+    margin-left: 135px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+
+
+}
+.team{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-left: 135px;
+    margin-bottom: 60px;
+}
+.team-details{
+
+margin-right: 135px;
+}
+.team-details h1 {
+    left: 10%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.team-details p {
+    left: 10%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.team-details button {
+    height: 80px;
+    width: 200px;
+    left: 10%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+
+    border-radius: 8px;
+    border: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 23px;
+    text-align: center;
+    background: #FF900E;
+    color: #FFFFFF;
+    top: 20px;
+}
+
+
+.feature{
+    margin-left: 135px;
+    
+}
+.feature p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+/* Dark 03 */
+
+color: #727272;
+}
+.feature-intro {
+    display: flex;
+    margin-bottom: 60px;
+    
+   
+}
+.feature-intro h1{
+    width: 500px;
+height: 78px;
+}
+.feature-intro p{
+    width: 500px;
+height: 78px;
+}
+
+.line {
+    border-left: 5px solid #FF900E;
+    height: 52px;
+    padding-left: 20px;
+}
+.items h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    
+    /* Dark 01 */
+    
+    color: #131313;
+}.items{
+    width: 500px;
+    height: 85px;
+    margin-bottom: 50px;
+    background-color: #f4f0f0;
+    border-radius: 10px;
+}
+.mains{
+    display: flex;
+}
+.mains img{
+    width: 450px;
+height: 700px;
+margin-left: 40px;
+
+
+}
+.architect button{
+    
+width: 200px;
+height: 100px;
+margin-top: -50px;
+color:#FFFFFF;
+background-color: #FF900E;
+border-radius: 10px;
+border: none;
+font-size: 25px;
+line-height: 20px;
+
+}
+.facts{
+    margin-top: 100px;
+    margin-left: 135px;
+    margin-right: 135px;
+   
+}
+.facts h1{
+    
+    margin-bottom: 20px;
+}
+.some{
+    width: 500px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+/* Dark 03 */
+
+color: #727272;
+}
+.icon{
+    margin-top: 100px;
+    border: 1px solid #FF900E;
+    width: 100.83px;
+height: 100.83px;
+text-align: center;
+}
+.icon p{
+    font-size: 10px;
+    text-align: center;
+    color: #727272;
+}
+.icon img{
+    margin-top: 5px;
+}
+.facts-icon{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.supporter{
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+    
+
+}
+.supporter h1{
+    margin-bottom: 20px;
+}
+.supporter p{
+    color: #727272;
+    font-size: 10px;
+    
+    
+}
+.supporter-icon{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.footer{
+    margin-left: 135px;
+    margin-right: 135px;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: bisque;
+    height: 50px;
+    margin-top: 50px;
+    color: #424242;
+    font-size: 10px;
+
+}
