@@ -20,14 +20,15 @@ nav {
 }
 
 nav h1 {
-    font-size: 45px;
+    font-size: 25px;
 }
 
 
 .start {
     display: flex;
     gap: 400px;
-
+margin-left: 135px;
+margin-right: 135px;
 }
 
 .menu {
@@ -376,7 +377,7 @@ margin-left: 0;
     .supporter-icon{
         display: inline;
         margin-top: 40px;
-        
+
     }
 
     
